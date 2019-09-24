@@ -1,2 +1,4 @@
 steps:
 - script: printenv
+- script: echo "$(Build.SourcesDirectory)"
+- script: echo "$(Pipeline.Workspace)"
