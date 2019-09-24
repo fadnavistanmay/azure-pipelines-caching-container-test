@@ -1,0 +1,15 @@
+#
+# Azure Pipelines configuration for building and testing Caching in Containers on Linux, Windows, and macOS.
+#
+
+stages:
+- stage: firstrun
+  displayName: 'Empty cache'
+  jobs:
+  - template: .azure-pipelines-jobs.yml
+
+- stage: secondrun
+  dependsOn: firstrun
+  displayName: 'Cached'
+  jobs:
+  - template: .azure-pipelines-jobs.yml
