@@ -6,4 +6,4 @@ steps:
 - task: CacheBeta@1
   inputs:
     path: $(Build.SourcesDirectory)
-    key: '$(Build.Id)''
+    key: '$(Build.Id)'
