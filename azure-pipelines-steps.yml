@@ -2,3 +2,8 @@ steps:
 - script: printenv
 - script: echo "$(Build.SourcesDirectory)"
 - script: echo "$(Pipeline.Workspace)"
+
+- task: CacheBeta@1
+  inputs:
+    path: $(Build.SourcesDirectory)/foo
+    key: "$(Build.Id)"
