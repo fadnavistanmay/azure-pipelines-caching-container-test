@@ -4,6 +4,9 @@ jobs:
     matrix:
       linux:    
         VM_IMAGE: ubuntu-16.04
+      container linux:
+        VM_IMAGE: ubuntu-16.04
+        container: ubuntu:16.04
       windows 2017:
         VM_IMAGE: vs2017-win2016
       macos 10.13:
