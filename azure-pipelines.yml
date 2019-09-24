@@ -6,10 +6,10 @@ stages:
 - stage: firstrun
   displayName: 'Empty cache'
   jobs:
-  - template: .azure-pipelines-jobs.yml
+  - template: azure-pipelines-jobs.yml
 
 - stage: secondrun
   dependsOn: firstrun
   displayName: 'Cached'
   jobs:
-  - template: .azure-pipelines-jobs.yml
+  - template: azure-pipelines-jobs.yml
