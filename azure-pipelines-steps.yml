@@ -5,5 +5,5 @@ steps:
 
 - task: CacheBeta@1
   inputs:
-    path: $(Build.SourcesDirectory)/foo
-    key: "$(Build.Id)"
+    path: $(Build.SourcesDirectory)
+    key: '$(Build.Id)''
