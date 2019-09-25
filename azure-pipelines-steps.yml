@@ -5,5 +5,5 @@ steps:
 
 - task: CacheBeta@1
   inputs:
-    path: $HOME
+    path: $(HOME)
     key: "test2"
