@@ -17,9 +17,9 @@ jobs:
     vmImage: $(VM_IMAGE)
   steps:
   - template: azure-pipelines-steps.yml
-  
+
   # Private Pool.
 - job: 
   pool: tanmaydev
   steps:
-  - template: .azure-pipelines-steps.yml
+  - template: azure-pipelines-steps.yml
