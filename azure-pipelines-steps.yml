@@ -1,5 +1,5 @@
 steps:
-- script: printenv | grep BUILD
+- script: printenv
 - script: echo "$(Build.SourcesDirectory)"
 - script: echo "$(Pipeline.Workspace)"
 
