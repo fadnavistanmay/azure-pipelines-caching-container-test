@@ -6,4 +6,4 @@ steps:
 - task: CacheBeta@1
   inputs:
     path: $HOME
-    key: "test"
+    key: "test2"
