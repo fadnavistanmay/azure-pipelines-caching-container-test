@@ -5,5 +5,5 @@ steps:
 
 - task: CacheBeta@1
   inputs:
-    path: $(Build.SourcesDirectory)
+    path: $HOME
     key: "test"
