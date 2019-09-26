@@ -4,9 +4,6 @@ jobs:
     matrix:
       linux:    
         VM_IMAGE: ubuntu-16.04
-      container linux:
-        VM_IMAGE: ubuntu-16.04
-        container: ubuntu:16.04
       windows 2017:
         VM_IMAGE: vs2017-win2016
       macos 10.13:
@@ -22,5 +19,13 @@ jobs:
 - job: 
   pool: tanmaydev
   container: mcr.microsoft.com/windows/servercore:ltsc2019
+  steps:
+  - template: azure-pipelines-steps.yml
+
+# Linux container pool.
+
+- job:
+  pool: ubuntu-16.04
+  container: ubuntu:16.04
   steps:
   - template: azure-pipelines-steps.yml
