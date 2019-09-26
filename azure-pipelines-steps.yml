@@ -5,5 +5,5 @@ steps:
 
 - task: CacheBeta@1
   inputs:
-    path: $(Build.SourcesDirectory)
-    key: \"test23\" | $(Agent.OS) | $(Build.SourcesDirectory)\foo.cs
+    path: C:\Users\tafadnav\Desktop\owendrop\MS.VS.Services.Drop.App\MS.VS.Services.Drop.App
+    key: \"test24\" | $(Agent.OS) | $(Build.SourcesDirectory)\foo.cs
