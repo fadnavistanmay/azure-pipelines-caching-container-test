@@ -21,6 +21,6 @@ jobs:
   # Private Pool.
 - job: 
   pool: tanmaydev
-  container: wincontainer_images:latest
+  container: mcr.microsoft.com/windows/servercore:ltsc2019
   steps:
   - template: azure-pipelines-steps.yml
