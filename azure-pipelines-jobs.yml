@@ -21,6 +21,6 @@ jobs:
   # Private Pool.
 - job: 
   pool: tanmaydev
-  container: mcr.microsoft.com/windows/servercore:1803
+  container: standalone2
   steps:
   - template: azure-pipelines-steps.yml
