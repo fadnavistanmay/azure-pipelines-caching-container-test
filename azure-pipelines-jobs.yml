@@ -21,6 +21,6 @@ jobs:
   # Private Pool.
 - job: 
   pool: tanmaydev
-  container: wincontainer_images
+  container: wincontainer_images:latest
   steps:
   - template: azure-pipelines-steps.yml
