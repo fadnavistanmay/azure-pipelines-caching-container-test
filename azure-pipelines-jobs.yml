@@ -21,6 +21,6 @@ jobs:
   # Private Pool.
 - job: 
   pool: tanmaydev
-  container: wincontainer_images
+  container: ubuntu:16.04
   steps:
   - template: azure-pipelines-steps.yml
