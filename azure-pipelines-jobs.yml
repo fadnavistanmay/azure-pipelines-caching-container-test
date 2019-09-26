@@ -16,17 +16,32 @@ jobs:
   - template: azure-pipelines-steps.yml
 
   # Private Pool.
-- job: 
+- job: TanmayDev
   pool: tanmaydev
   container: mcr.microsoft.com/windows/servercore:ltsc2019
   steps:
   - template: azure-pipelines-steps.yml
 
 # Linux container pool.
-
-- job:
+- job: LinuxContainer1604
   pool:
     vmimage: ubuntu-16.04
     container: ubuntu:16.04
+  steps:
+  - template: azure-pipelines-steps.yml
+
+# Linux container pool.
+- job: LinuxContainer1804
+  pool:
+    vmimage: ubuntu-18.04
+    container: ubuntu:18.04
+  steps:
+  - template: azure-pipelines-steps.yml
+
+# Windows container pool.
+- job: WindowsContainer
+  pool:
+    vmimage: win1803
+    container: mcr.microsoft.com/windows/servercore:1803
   steps:
   - template: azure-pipelines-steps.yml
