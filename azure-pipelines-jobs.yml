@@ -25,7 +25,8 @@ jobs:
 # Linux container pool.
 
 - job:
-  vmimage: ubuntu-16.04
-  container: ubuntu:16.04
+  pool:
+    vmimage: ubuntu-16.04
+    container: ubuntu:16.04
   steps:
   - template: azure-pipelines-steps.yml
