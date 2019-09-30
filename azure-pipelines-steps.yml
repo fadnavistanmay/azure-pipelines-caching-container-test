@@ -7,4 +7,4 @@ steps:
 - task: CacheBeta@1
   inputs:
     path: $(Build.SourcesDirectory)
-    key: \"test25\" | $(Agent.OS) | $(Build.SourcesDirectory)\foo.cs
+    key: \"test26\" | $(Agent.OS) | $(Build.SourcesDirectory)\foo.cs
