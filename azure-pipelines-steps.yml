@@ -7,4 +7,4 @@ steps:
 - task: CacheBeta@1
   inputs:
     path: $(Pipeline.Workspace)\test
-    key: \"test42232232\" | $(Agent.OS) | $(Build.SourcesDirectory)\*.*
+    key: \"test422322332\" | $(Agent.OS) | $(Build.SourcesDirectory)\*.*
