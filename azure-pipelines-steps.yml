@@ -6,5 +6,5 @@ steps:
 
 - task: CacheBeta@1
   inputs:
-    path: $(Build.SourcesDirectory)
+    path: $(Pipeline.Workspace)
     key: \"test42232232\" | $(Agent.OS) | $(Build.SourcesDirectory)\*.*
