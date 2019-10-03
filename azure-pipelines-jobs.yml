@@ -17,8 +17,8 @@ jobs:
 
   # Private Pool.
 - job: TanmayDev
-  pool: tanmaydev
-  #container: mcr.microsoft.com/windows/servercore:ltsc2019
+  pool: tafadnavubuntu
+  container: mcr.microsoft.com/windows/servercore:ltsc2019
   #container: ubuntu:16.04
   steps:
   - template: azure-pipelines-steps.yml
