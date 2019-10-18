@@ -1,10 +1,6 @@
 #
 # Azure Pipelines configuration for building and testing Caching in Containers on Linux, Windows, and macOS.
 #
-
-variables:
-  AZP_CACHING_CONTENT_FORMAT: Files
-
 stages:
 - stage: firstrun
   displayName: 'Empty cache'
