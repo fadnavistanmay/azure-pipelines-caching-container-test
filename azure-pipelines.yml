@@ -3,7 +3,7 @@
 #
 
 variables:
-  AZP_CACHING_CONTENT_FORMAT: Singletar
+  AZP_CACHING_CONTENT_FORMAT: Files
 
 stages:
 - stage: firstrun
