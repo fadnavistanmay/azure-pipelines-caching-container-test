@@ -6,5 +6,5 @@ steps:
 
 - task: CacheBeta@1
   inputs:
-    path: C:\Users\tafadnav\testfolder
-    key: \"test4223sds2sdsaa22ddsd332finalnoDcssonsswwt\" | $(Agent.OS) | C:\Users\tafadnav\testfolder\test\s\foo.cs
+    path: C:\Users\tafadnav\testfolder\my-app
+    key: \"test4223sds2sdsaa22dffdsd332finalnoDcssonsswwt\" | $(Agent.OS) | C:\Users\tafadnav\testfolder\test\s\foo.cs
