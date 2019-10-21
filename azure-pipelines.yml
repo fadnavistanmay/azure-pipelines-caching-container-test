@@ -4,6 +4,7 @@
 
 variables:
   system.debug: true
+  AZP_CACHING_CONTENT_FORMAT: Files
 
 stages:
 - stage: firstrun
