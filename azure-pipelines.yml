@@ -4,7 +4,7 @@
 
 variables:
   system.debug: true
-  AZP_CACHING_CONTENT_FORMAT: Files
+  AZP_CACHING_CONTENT_FORMAT: singletar
 
 stages:
 - stage: firstrun
