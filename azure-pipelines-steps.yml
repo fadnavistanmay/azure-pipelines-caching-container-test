@@ -6,5 +6,5 @@ steps:
 
 - task: CacheBeta@1
   inputs:
-    path: C:\Users\tafadnav\testfolder
+    path: C:\Users\tafadnav\testfolder\my-app2
     key: \"blahblawsh\" | $(Agent.OS) | $(Build.SourcesDirectory)\*
