@@ -1,6 +1,10 @@
 #
 # Azure Pipelines configuration for building and testing Caching in Containers on Linux, Windows, and macOS.
 #
+
+variables:
+  system.debug: true
+
 stages:
 - stage: firstrun
   displayName: 'Empty cache'

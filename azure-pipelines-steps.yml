@@ -7,4 +7,4 @@ steps:
 - task: CacheBeta@1
   inputs:
     path: C:\Users\tafadnav\testfolder
-    key: \"blahblash\" | $(Agent.OS) | $(Build.SourcesDirectory)\*
+    key: \"blahblawsh\" | $(Agent.OS) | $(Build.SourcesDirectory)\*
